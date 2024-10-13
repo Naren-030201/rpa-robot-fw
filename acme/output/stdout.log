@@ -1,0 +1,110 @@
+
+Collecting tasks from: tasks.py
+=================== Running: [96morder_robots_from_RobotSpareBin[0m ===================
+file removed
+File downloaded successfully
+False
+take screenshot
+folder exists
+screenshot saved
+False
+take screenshot
+folder exists
+screenshot saved
+True
+take screenshot
+folder exists
+screenshot saved
+False
+take screenshot
+folder exists
+screenshot saved
+True
+take screenshot
+folder exists
+screenshot saved
+True
+take screenshot
+folder exists
+screenshot saved
+False
+take screenshot
+folder exists
+screenshot saved
+False
+take screenshot
+folder exists
+screenshot saved
+True
+take screenshot
+folder exists
+screenshot saved
+False
+take screenshot
+folder exists
+screenshot saved
+True
+take screenshot
+folder exists
+screenshot saved
+False
+take screenshot
+folder exists
+screenshot saved
+True
+take screenshot
+folder exists
+screenshot saved
+False
+take screenshot
+folder exists
+screenshot saved
+False
+take screenshot
+folder exists
+screenshot saved
+False
+take screenshot
+folder exists
+screenshot saved
+False
+take screenshot
+folder exists
+screenshot saved
+True
+take screenshot
+folder exists
+screenshot saved
+False
+take screenshot
+folder exists
+screenshot saved
+False
+take screenshot
+folder exists
+screenshot saved
+[96morder_robots_from_RobotSpareBin[0m status: [91mFAIL
+[0m[91m
+[Errno 2] No such file or directory: 'orders.zip'
+[0m=========== Full Traceback (running [96morder_robots_from_RobotSpareBin[0m) ===========
+[91mTraceback (most recent call last):
+  File "C:\ProgramData\robocorp\ht\9076e58_b1f3c24_d4ec2478\lib\site-packages\robocorp\tasks\_commands.py", line 453, in run
+    result = task.run(**kwargs)
+  File "C:\ProgramData\robocorp\ht\9076e58_b1f3c24_d4ec2478\lib\site-packages\robocorp\tasks\_task.py", line 57, in run
+    return self.method(**kwargs)
+  File "d:\acme\tasks.py", line 26, in order_robots_from_RobotSpareBin
+    archive.add_to_archive(folder,'orders.zip')
+  File "C:\ProgramData\robocorp\ht\9076e58_b1f3c24_d4ec2478\lib\site-packages\RPA\Archive.py", line 248, in add_to_archive
+    elif tarfile.is_tarfile(archive_name):
+  File "C:\ProgramData\robocorp\ht\9076e58_b1f3c24_d4ec2478\lib\tarfile.py", line 2780, in is_tarfile
+    t = open(name)
+  File "C:\ProgramData\robocorp\ht\9076e58_b1f3c24_d4ec2478\lib\tarfile.py", line 1797, in open
+    return func(name, "r", fileobj, **kwargs)
+  File "C:\ProgramData\robocorp\ht\9076e58_b1f3c24_d4ec2478\lib\tarfile.py", line 1863, in gzopen
+    fileobj = GzipFile(name, mode + "b", compresslevel, fileobj)
+  File "C:\ProgramData\robocorp\ht\9076e58_b1f3c24_d4ec2478\lib\gzip.py", line 174, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'orders.zip'
+
+[0m================================================================================
+Robocorp Log (html): d:\acme\output\log.html
